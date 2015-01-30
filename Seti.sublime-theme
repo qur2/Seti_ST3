@@ -8,7 +8,7 @@
         "layer0.texture": "Seti_UI/Main/tabset-background.png",
         "layer0.inner_margin": [1, 7],
         "layer0.opacity": 1,
-        "content_margin": [0,0,4,4],
+        "content_margin": [0,0,0,0],
         "tab_overlap": 1,
         "tab_width": 190,
         "tab_min_width": 50,
@@ -24,7 +24,7 @@
     {
         "class": "tabset_control",
         "settings": ["Seti_tabs_small"],
-        "tab_height": 35,
+        "tab_height": 25,
     },
     {
         "class": "tabset_control",
@@ -42,7 +42,7 @@
         "class": "tab_control",
         "max_margin_trim": 0,
         "hit_test_level": 0,
-        "content_margin": [12, 3],
+        "content_margin": [12,3],
         "layer0.texture": "Seti_UI/Main/tab-inactive.png",
         "layer0.inner_margin": 5,
         "layer0.opacity": 1
@@ -51,7 +51,7 @@
     {
         "class": "tab_control",
         "settings": ["show_tab_close_buttons"],
-        "content_margin": [10, 1, 7, 3]
+        "content_margin": [10,3,7,3]
     },
     // Tab hover state
     {
@@ -69,7 +69,7 @@
         "class": "tab_control",
         "settings": ["!show_tab_close_buttons"],
         "attributes": ["dirty"],
-        "content_margin": [12,3,7,3]
+        "content_margin": [10,3,7,3]
     },
 
 //========================================================
@@ -479,7 +479,7 @@
         "class": "status_bar",
         "layer0.tint": [16,17,18],
         "layer0.opacity": 1,
-        "content_margin": [20, 7, 10, 7]
+        "content_margin": [10, 7, 10, 7]
     },
     // Status bar button
     {
@@ -846,7 +846,7 @@
 
     {
         "class": "quick_panel",
-        "row_padding": [10,8],
+        "row_padding": [8,4],
         "layer0.tint": [16,17,18],
         "layer0.opacity": 1
     },
